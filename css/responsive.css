@@ -129,10 +129,22 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .service-item-icon i {
     width: 58px;
     height: 58px;
     padding: 7px;
+  }
+
+  #home-heading h3 {
+    font-size: 40px;
+  }
+
+  #home-heading h4 {
+    font-size: 15px;
+  }
+
+  .about-content-box {
+    height: 750px;
   }
 }
