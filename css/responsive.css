@@ -1,0 +1,138 @@
+/*=====================================================
+    ---- Bootstrap Media Queries based on grid system ----
+=====================================================*/
+
+/* Large devices (Desktop and Laptops)*/
+@media (min-width: 1200px) {
+  /* Everything is OK*/
+}
+
+/* Medium devices (Landscape Tablets and Medium Desktop)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+
+  .navbar-nav {
+    float: left;
+  }
+}
+
+/* Small devices (Portrait Tablets and Small Desktop)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+
+  .navbar-nav {
+    float: left;
+  }
+
+  #about-bg-diagonal {
+    display: none;
+  }
+
+  #about .content-title h3 {
+    text-align: center;
+  }
+
+  #about .content-title-underline {
+    text-align: center;
+    margin: 0 auto 30px auto;
+  }
+  .about-content-box {
+    height: 350px;
+  }
+
+  .stats-item {
+    padding: 20px 0px;
+  }
+  #footer-copyrights {
+    text-align: center;
+  }
+}
+
+/* Extra Small devices (Landscape Phones and Portrait Tablets)*/
+@media (max-width: 767px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+
+  .navbar-nav {
+    float: left;
+  }
+
+  #home-heading h3 {
+    font-size: 54px;
+  }
+  .btn-general {
+    padding: 6px 22px;
+    font-size: 14px;
+  }
+
+  #about-bg-diagonal {
+    display: none;
+  }
+
+  #about .content-title h3 {
+    text-align: center;
+  }
+
+  #about .content-title-underline {
+    text-align: center;
+    margin: 0 auto 30px auto;
+  }
+
+  .about-content-box {
+    height: 500px;
+  }
+
+  .stats-item {
+    padding: 20px 0px;
+  }
+  #footer-copyrights {
+    text-align: center;
+  }
+
+  .img-wrapper img {
+    min-width: 100%;
+  }
+
+  .testimonial blockquote:before {
+    left: 10px;
+  }
+
+  .testimonial blockquote:after {
+    right: 10px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 14px;
+  }
+  .testimonial blockquote {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .service-item-icon i {
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+  }
+}
